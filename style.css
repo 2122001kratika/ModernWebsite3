@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background: rgb(41, 37, 37);
+    background: linear-gradient(146deg, rgba(59, 56, 56, 0.99) 0%, rgba(16,16,18,1) 20%);
+    /* background-image: url(challenge1.png); */
+    overflow: hidden;
+    position: relative;
+}
+
+#nav{
+    width: 100%;
+    height: 60px;
+    padding-left: 200px ;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 90px;
+}
+
+#nav #logo{
+    display: flex;
+}
+#logo h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+h2>span{
+    font-weight: 800;
+}
+
+#logo i{
+    font-size: 10px;
+    color: orange;
+}
+
+#nav #search{
+    width: 370px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    opacity: 0.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+#search i{
+     font-size: 20px;
+}
+
+#nav #links{
+    opacity: 0.8;
+    display: flex;
+    /* align-items: center; */
+    margin-left: -20px;
+}
+
+#links a{
+    margin-right: 40px;
+    text-decoration: none;
+    color:#fff;
+}
+#links i{
+    opacity: 0.5;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#star1{
+    position: absolute;
+    top: 18.5%;
+    left: 26%;
+}
+
+#star2{
+    position: absolute;
+    top: 34%;
+    right: 33%;
+}
+
+#star3{
+    font-size: 12px;
+    color:#55CCE5;
+    position: absolute;
+    left: 30.5%;
+    top: 55%;
+}
+
+#star4{
+    font-size: 8px;
+    color:#55CCE5;
+    position: absolute;
+    right: 39%;
+    top: 22%;
+}
+
+#star5{
+    font-size: 5px;
+    color:#fff;
+    position: absolute;
+    right: 28.5%;
+    top: 23%;
+}
+
+#circle1{
+    width: 11px;
+    height: 11px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 39%;
+    left: 31%;
+}
+
+#main>h6{
+    text-align: center;
+    color:#fff;
+    font-size: 11px;
+    opacity: 0.7;
+    margin: 10px 0px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#main #text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 34px;
+    line-height: 82px;
+    letter-spacing: 1px;
+}
+
+#text #line1{
+    display: flex;
+    align-items: center;
+}
+
+#line1>#mid1{
+    width: 100px;
+    height: 45px;
+    border-radius: 200px;
+    overflow: hidden;
+    background-color: #DEDFE3;
+    position: relative;
+    margin: 0px 20px;
+}
+
+#mid1 img{
+    width: 70%;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    overflow: hidden;
+}
+
+
+#text #line2{
+    display: flex;
+    align-items: center;
+}
+#line2>#mid2{
+    width: 200px;
+    height: 50px;
+    border-radius: 200px;
+    overflow: hidden;
+    margin: 0px 20px;
+    z-index: 99;
+}
+
+#mid2 img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#ovals #oval1{
+    width:60px;
+    height:200px;
+    border: 1px solid #fff;
+    border-radius: 100px;;
+    position: absolute;
+    left:18%;
+    bottom: -9%;
+} 
+#ovals #oval2{
+    width:58px;
+    height:26px;
+    border: 1px solid #fff;
+    border-radius: 100px;;
+    position: absolute;
+    left:27%;
+    bottom: 0.5%;
+}
+#ovals #oval3{
+    width:270px;
+    height:420px;
+    border-radius: 150px;;
+    position: absolute;
+    left:40%;
+    bottom: -14%;
+    z-index: 999;
+    background-color: #CDCFD1;
+} 
+
+#oval3 img{
+    position: absolute;
+    bottom: 24%;
+    left: 10%;
+}
+
+#ovals #oval4{
+    width:250px;
+    height:350px;
+    border-radius: 150px;;
+    position: absolute;
+    left:46%;
+    bottom: -10%;
+    z-index: 99;
+    background: rgb(70,70,71);
+    background: linear-gradient(180deg, rgba(70,70,71,1) 0%, rgba(244,230,170,1) 100%);
+}
+#ovals #oval5{
+    width:47px;
+    height:47px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    right:26%;
+    bottom: 28%;
+}
+#ovals #oval6{
+    width:55px;
+    height:150px;
+    border: 1px solid #fff;
+    border-radius: 100px;;
+    position: absolute;
+    right: 20%;
+    bottom: 37%;
+}
+
+
+#text1{
+    text-align: right;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    left: 20%;
+    top: 64%;
+    opacity: 0.8;
+    line-height: 17px;
+}
+
+#text2{
+    text-align: left;
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    right: 21%;
+    top: 78%;
+    opacity: 0.8;
+    line-height: 16px;
+}
+
+#text2 span{
+    color:rgb(209, 209, 137);
+    font-weight: bold;
+}
+
+#ring{
+    position: absolute;
+    left: 31.5%;
+    top: 64%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(215,89,44);
+    background: linear-gradient(38deg, rgba(215,89,44,1) 5%, rgba(226,135,67,1) 83%);
+    
+}
+
+#ringstar{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background: rgb(79,71,71);
+    background: linear-gradient(30deg, rgba(79,71,71,1) 5%, rgba(255,255,255,1) 72%);
+    clip-path: polygon(52% 0, 61% 37%, 97% 46%, 61% 56%, 53% 98%, 50% 70%, 54% 99%, 43% 56%, 1% 47%, 42% 38%);
+}
